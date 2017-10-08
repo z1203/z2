@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':mytaobao', ':自定义view'
