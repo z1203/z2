@@ -1,1 +1,1 @@
-include ':app', ':mytaobao', ':自定义view'
+include ':app', ':mytaobao', ':自定义view', ':zxinglitehigh'
