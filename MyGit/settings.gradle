@@ -1,1 +1,1 @@
-include ':app', ':mytaobao', ':自定义view', ':zxinglitehigh'
+include ':app', ':mytaobao', ':自定义view', ':zxinglitehigh', ':mvvm', ':微信分享', ':mockexam', ':个推(mess)'

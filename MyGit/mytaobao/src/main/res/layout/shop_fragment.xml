@@ -2,6 +2,73 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#359225">
+    android:orientation="vertical">
 
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/shape_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:text="购 物 车"/>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/celv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:groupIndicator="@null">
+    </ExpandableListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="#EEEED1"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/box_All"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:button="@drawable/select_box"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="6dp"
+                android:textSize="20sp"
+                android:text="全选"/>
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"
+                android:textSize="20sp"
+                android:text="合计：0.00"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/jieSuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF8200"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="结 算"/>
+    </LinearLayout>
 </LinearLayout>

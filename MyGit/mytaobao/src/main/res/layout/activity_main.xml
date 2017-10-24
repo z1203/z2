@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.bwie.mytaobao.MainActivity">
+    tools:context="com.bwie.mytaobao.activity.MainActivity">
 
     <FrameLayout
         android:id="@+id/frame"
@@ -39,16 +39,6 @@
             android:textColor="@drawable/text_color"
             android:button="@null"
             android:text="微淘"/>
-        <RadioButton
-            android:id="@+id/mess"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/mess_icon"
-            android:textColor="@drawable/text_color"
-            android:button="@null"
-            android:text="消息"/>
         <RadioButton
             android:id="@+id/shopcar"
             android:layout_width="wrap_content"

@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bwie.mytaobao.HomeActivity">
+    tools:context="com.bwie.mytaobao.activity.HomeActivity">
 
     <ImageView
         android:id="@+id/welcome"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@mipmap/taobao_home"/>
+        android:background="@mipmap/taobao"/>
 
 </RelativeLayout>
