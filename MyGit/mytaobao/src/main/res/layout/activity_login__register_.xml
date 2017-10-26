@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.mytaobao.activity.Login_Register_Activity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/login_tao"
+        android:background="@drawable/shape_login"/>
+    <Button
+        android:onClick="login"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login_first"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/shape_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登 录"
+        android:textColor="#fff"
+        android:textSize="26sp"/>
+    <Button
+        android:layout_marginRight="40dp"
+        android:onClick="register"
+        android:layout_below="@id/login_first"
+        android:id="@+id/register"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新用户注册"
+        android:textColor="#FFAF00"
+        android:textSize="20sp"/>
+
+    <Button
+        android:onClick="alipay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  支付宝账户登录"
+        android:drawableLeft="@mipmap/login_zhifu"
+        android:layout_marginBottom="15dp"
+        android:textColor="#A6A6A6"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

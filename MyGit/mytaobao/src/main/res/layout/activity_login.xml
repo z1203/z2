@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.mytaobao.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/login"/>
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/iv_logo"
+        android:id="@+id/login_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="22sp"
+        android:hint="手机号/用户名/邮箱"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/login_name"
+        android:id="@+id/login_pwd"
+        android:password="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="22sp"
+        android:hint="请输入密码"/>
+    <Button
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        android:id="@+id/forget_pwd"
+        android:layout_below="@id/login_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#77000000"
+        android:text="忘记密码?"/>
+    <Button
+        android:enabled="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login"
+        android:layout_below="@id/forget_pwd"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="登 录"
+        android:textColor="#fff"
+        android:textSize="26sp"/>
+
+</RelativeLayout>

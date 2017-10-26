@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.mytaobao.activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入用户名"/>
+    <EditText
+        android:id="@+id/reg_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:password="true"
+        android:layout_below="@id/reg_name"
+        android:hint="请输入密码"/>
+    <EditText
+        android:id="@+id/reg_pwdCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:password="true"
+        android:layout_below="@id/reg_pwd"
+        android:hint="请再次输入密码"/>
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/reg_pwdCopy"
+        android:hint="请输入邮箱"/>
+
+    <Button
+        android:id="@+id/reg_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_email"
+        android:background="@drawable/shape_register"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="注  册"/>
+
+</RelativeLayout>
