@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="count">#ffae01</color>
+    <color name="money">#ff6e01</color>
+</resources>
